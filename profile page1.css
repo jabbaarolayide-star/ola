@@ -1,0 +1,74 @@
+.root{
+    background-color: rgb(221, 173, 111);
+    width: 950px;
+    height: 930px;
+    margin: auto;
+}
+.head{
+    background-color: hsl(195, 42%, 69%);
+    height: 170px;
+    text-align: center;
+    font-family:Arial, sans-serif;
+    margin-top: 0px;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    align-content: center;
+}
+.body1{
+    background-color: white;
+    height: auto;
+    width: 910px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    letter-spacing:1px;
+    word-spacing: 0px;
+}
+.body2{
+    background-color: white;
+    height: auto;
+    width: 910px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    
+}
+.skills{
+    background-color: hsl(197, 34%, 61%);
+    width:120px;
+    font-family:Arial, sans-serif;
+    display:inline;
+    justify-content: space-between;
+    font-weight: normal;
+    padding: 10px;
+    margin: 5px;
+}
+.body3{
+    background-color: white;
+    height: auto;
+    width: 910px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+.html{
+    justify-content: center;
+    display:inline;
+    justify-content: space-between;
+}
+.foot{
+    background-color: hsl(195, 42%, 69%);
+    height: auto;
+    text-align: center;
+    padding: 1px;
+    font-family:Arial, sans-serif;
+}

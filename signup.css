@@ -1,0 +1,74 @@
+.body{
+    background-color: rgb(170, 170, 194);
+    font-family: Arial, sans-serif;
+}
+.container{
+    text-align: center;
+}
+.contain{
+    background-color: rgb(35, 207, 207);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(204, 163, 27);
+}
+
+.signup-box{
+    background: #f1e7e7;
+    padding: 10px 0px 0px 0px;
+    border: 1px solid #f1e7e7;
+    border-radius: 5px;
+    width: 48%;
+    margin:0px auto; 
+    box-shadow: 2px 2px 2px 5px  rgb(160, 157, 148);  
+}
+.text{
+    text-align: center;
+}
+.date{
+    width: 27.7%;
+    padding: 10px;
+    margin:15px ;
+    border: 1px solid rgb(11, 11, 226);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.signup-box input{
+    width: 40%;
+    padding: 10px;
+    margin:15px ;
+    border: 1px solid rgb(11, 11, 226);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.gender{
+    display: flex;
+    margin: 5px;
+}
+.gender-0pt{
+    width: 25.5%;
+    padding: 5px;
+    margin:15px ;
+    border:0.5px solid rgb(11, 11, 226);
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+.security{
+    padding: 15px;
+    font-size: x-small;
+}
+.signup-button{
+    background-color: green;
+    color: white;
+    border-radius:5px;
+    border-color: green;
+    padding: 10px;
+    width: 150px;
+    margin:10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+

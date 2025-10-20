@@ -1,0 +1,56 @@
+.body{
+    background-color: rgb(235, 235, 245);
+    font-family: Arial, sans-serif;
+   
+}
+.container{
+    text-align: center;
+   
+    margin: 50px;
+}
+.contain{
+    background-color: rgb(35, 207, 207);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(118, 118, 245);
+}
+.login-box{
+    background: white;
+    padding: 10px 40px 50px 20px;
+    border: 1px solid #f1e7e7;
+    border-radius: 5px;
+    box-shadow:10px rgba(235, 164, 164, 0.1);
+    width: 500px;
+    margin:0px auto;
+}
+.login-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(14, 14, 26);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.login-button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: blue;
+    padding: 10px 40px 10px 20px;
+    width: 322px;
+    margin:5px auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+.create-button{
+    background-color: green;
+    color: white;
+    border-radius:5px;
+    border-color: green;
+    padding: 10px;
+    width: 250px;
+    margin:10px;
+    cursor: pointer;
+    font-size: 20px;
+}

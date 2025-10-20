@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <style>
+        .body {
+            background-color: rgb(217, 5, 245);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 10px auto;
+            padding: 5px;
+        }
+        .form-card {
+            background-color: rgb(209, 224, 238);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgb(224, 175, 12);
+            margin-bottom: 10px;
+        }
+        .form-cardco {
+            background-color: rgb(209, 224, 238);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(92, 53, 53, 0.1);
+            margin-bottom: 10px;
+        }
+        .form-font {
+            font-size: small;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 90%;
+            border: none;
+            border-bottom: 2px solid #d1df0b;
+            padding: 0 0;
+            outline: none;
+            font-size: 16px;
+        }
+        .never{
+        font-size: x-small;
+        color: rgb(6, 0, 12);
+    }
+       .report{
+       text-align: center;
+       font-size: x-small;
+       padding-left: 20px; 
+       padding-right: 20ps;
+       color: rgb(7, 0, 14);
+    }
+        input:focus {
+            border-bottom: 2px solid rgb(14, 172, 14);
+        }
+        .required {
+            color: rgb(182, 10, 96);
+        }
+    .sub{
+        border-radius:100px ;
+        background: purple;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .clear{
+        border-radius:100px ;
+    }
+    .purp{
+        background-color: blueviolet;
+        max-width: 400px;
+        margin: 10px auto;
+    }
+    </style>
+</head>
+<body class="body">
+    <form class="form-container">
+    <div class="form-card">
+        <h1>Free Skills Training Registration: Web Development & Product Design.</h1>
+        <p><strong>Skill Afrika,</strong> in collaboration with the<strong> Office of the Special Adviser on SDGs to Osun State Government,
+        </strong>is offering FREE training in:
+        <br>
+        <ul>
+           <strong><li>Front-End Web Development</li>
+            <br>
+            <li>Product Design (UX/UI)</li></strong>
+        </ul>
+        <p>The initiative is designed to empower young individuals wiith future-ready digital skills to thrive in today's job market.</p>
+        <p>Kindly fill out this short from to register your interest.</p>
+        <p>Only selected participants will be contacted.
+        <br>
+        <br>
+        Training is completely free.
+        <hr>
+        ................@gmail.com
+        <br>
+        <br>
+        <a href="#">Switch account</a>
+        <br>
+        <hr>
+        <p style="color: rgb(248, 5, 5);">* indicates required</p>
+        </p>
+    </div>
+    <div class="form-card">
+        <label>Email <span style="color: rgb(182, 32, 144);">*</span></label>
+        <br>
+        <input type="checkbox" id="Email" value="Email" style="display: inline;font-weight: lighter;">
+        Record .....@gmail.com as the email to be included with my response>
+    </div>
+    <div class="form-card">
+        <label>Registration Questions</label>
+    </div>
+    <div class="form-container form-card">
+        <label>Full name <span class="required">*</span></label>
+        <br>
+        <input type="text" placeholder="your answer">
+    </div>
+    <div class="form-container form-card">
+        <label>Phone Number (Whatsapp preferred) <span class="required">*</span></label>
+        <br>
+        <input type="text" placeholder="your answer">
+    </div>
+    <div class="form-container form-card">
+        <label>Email Address <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>
+        <input type="Email" placeholder="your answer">
+    </div>
+    <div class="form-container form-card">
+        <label>Age <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>
+        <input type="number" placeholder="your answer">
+    </div>
+    <div class="form-container form-card">
+        <label>Gender <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>          
+        <input id="Male" value="Male" name="Gender" type="radio" style="display: inline;">
+        <label style="display: inline;font-weight: lighter;">Male</label>
+        <br>
+        <br>
+        <input id="Male" value="Female" name="Gender" type="radio" style="display: inline;">
+        <label style="display: inline;font-weight: lighter;">Female</label>
+        <br>
+        <br>
+        <input id="Male" value="Prefer not to Say" name="Gender" type="radio">
+        <label style="display: inline; font-weight: lighter;">Prefer not to Say.</label> 
+    </div>
+    <div class="form-card form-container">
+        <label>Residential Address (City/Town, LGA, State)<span class="required"> *</span></label>
+        <br>
+        <input type="text" placeholder="your answer">
+    </div>
+    <div class="form-container form-card">
+        <label>Which course are you applying for? <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>          
+        <input id="Front-End" value="Front-End" name="Skill" type="radio" style="display: inline;">
+        <label style="display: inline;font-weight: lighter;">Front-End Web Development.</label>
+        <br>
+        <br>
+        <input id="UI/UX" value="UI/UX" name="Skill" type="radio" style="display: inline;">
+        <label style="display: inline;font-weight: lighter;" >Product Design (UI/UX).</label>
+        <br>
+        <br>
+        <input id="Not Applying" value="nothing" name="skill" type="radio">
+        <label style="display: inline;font-weight: lighter;">Not Applying, I only like skill afrika.</label> 
+    </div>
+    <div class="form-container form-card">
+        <label>Do you have access to laptop or destop computer for learning? <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>
+        <input id="device access" value="Yes" name="Device" type="radio" style="display: inline;">
+        <label style="display: inline;font-weight: lighter;" >Yes</label>
+        <br>
+        <br>
+        <input id="device access" value="No" name="Device" type="radio">
+        <label style="display: inline;font-weight: lighter;">No</label>
+        <br>
+        <br>
+        <input id="device access" value="Sometimes" name="Device" type="radio">
+        <label style="display: inline;font-weight: lighter;">Somtimes</label> 
+    </div>
+    <div class="form-container form-card">
+        <label>Why are you interested in this training? <span class="required">*</span></label>
+        <br>
+        <input type="text" placeholder="your answer">
+    </div>
+    <div class="form-container form-card">
+        <label>Current Occupation/Status <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>
+        <input id="status" value="Student" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Student</label>
+        <br>
+        <br>
+        <input id="status" value="NYSC Corp Member" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;">NYSC Corp Member</label>
+        <br>
+        <br>
+        <input id="status" value="Unemployed" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Unemployed</label>
+        <br>
+        <br>
+        <input id="status" value="Self employed" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Self employed</label>
+        <br>
+        <br>
+        <input id="status" value="Employed" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Employed</label>
+        <br>
+        <br>
+        <input id="status" value="my status" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Other: 
+        <input type="text "placeholder="your status"></label>
+    </div>
+    <div class="form-container form-card">
+        <label>Preferred mode of learning <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>
+        <input id="online" value="online" name="class" type="radio">
+        <label style="display: inline;font-weight: lighter;" >online</label>
+        <br>
+        <br>
+        <input id="physical" value="Physical" name="class" type="radio">
+        <label style="display: inline;font-weight: lighter;">Physical</label>
+        </div>
+        <div class="form-container form-card">
+        <label>Mode of classes <span style="color: rgb(182, 23, 110);">*</span></label>
+        <br>
+        <input id="Evening" value="eveningclasses" name="class" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Evening classes</label>
+        <br>
+        <br>
+        <input id="Weekend" value="Weekend classes" name="class" type="radio">
+        <label style="display: inline;font-weight: lighter;">Weekend classes</label>
+        </div>
+        <div class="form-container form-card">
+        <label>How did you hear about this opportunity? <span style="color: rgb(182, 23, 110);">*</span></label>
+        <input id="online" value="Whatsapp" name="media" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Whatsapp</label>
+        <br>
+        <br>
+        <input id="online" value="Instagram" name="media" type="radio">
+        <label style="display: inline;font-weight: lighter;">Instagram</label>
+        <br>
+        <br>
+        <input id="online" value="Twitter" name="media" type="radio">
+        <label style="display: inline;font-weight: lighter;">Twitter (X)</label>
+        <br>
+        <br>
+        <input id="online" value="Facebook" name="media" type="radio">
+        <label style="display: inline;font-weight: lighter;">Facebook</label>
+          <br>
+        <br>
+        <input id="online" value="SDG Office" name="media" type="radio">
+        <label style="display: inline;font-weight: lighter;">SDG Office</label>
+          <br>
+        <br>
+        <input id="online" value="Skill Afrika" name="media" type="radio">
+        <label style="display: inline;font-weight: lighter;">Skill Afrika</label>
+         <br>
+        <br>
+        <input id="status" value="I heard it" name="Status" type="radio">
+        <label style="display: inline;font-weight: lighter;" >Other: 
+        <input type="text "placeholder="I heard it through..."></label>
+    </div>
+    <div style="justify-content: space-between; display: flex;">
+    <button class="sub">Submit</button>
+    <button class="clear">Clear form</button>
+    </div>
+    <p class="never">Never submit passwords through Google Forms.</p>
+    <p class="report">
+       This content is neither created nor endorsed by Google - <a href="#" style="color: rgb(233, 186, 186);"> 
+       Contact form owner</a> - <a href="#" style="color: rgb(243, 191, 191);">Terms of Service </a>- <a href="#" 
+       style="color: rgb(233, 186, 186);">Privacy Policy</a>
+    </p>
+    <p class="report">Does this form look suspicious? <a href="#" style="color: rgb(238, 191, 191);">Report</a></p>
+    <h3 style="text-align: center;"><strong>Google</strong> Forms</h3>
+</form>
+</body>
+</html>
